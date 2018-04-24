@@ -9,21 +9,23 @@ uses
   uTSimplePizza in 'uTSimplePizza.pas',
   uTPizzaStore in 'uTPizzaStore.pas';
 
- procedure DoPizzaStore;
- var PizzaStore:  TPizzaStore;
- begin
-   PizzaStore:=TPizzaStore.Create;
-   try
-   PizzaStore.OrderPizza('cheese');
-    finally
+procedure DoPizzaStore;
+var PizzaStore:  TPizzaStore;
+begin
+  PizzaStore:=TPizzaStore.Create;
+  try
+  PizzaStore.OrderPizza('cheese');
+  finally
     PizzaStore.Free;
- end;
+  end;
+end;
 
 begin
   try
-    { TODO -oUser -cConsole Main : Code hier einfügen }
+  DoPizzaStore;
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
   end;
+  Readln;
 end.

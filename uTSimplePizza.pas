@@ -9,11 +9,23 @@ type
     procedure Bake;
     procedure Cut;
     procedure Box;
+    procedure Message; virtual; abstract;
   end;
 
-TCheesePizza = class(TSimplePizza );
-TPepperoniPizza = class(TSimplePizza );
-TVeggiePizza = class(TSimplePizza );
+  TCheesePizza = class(TSimplePizza )
+  public
+  procedure Message; override;
+  end;
+
+  TPepperoniPizza = class(TSimplePizza)
+  public
+  procedure Message; override;
+  end;
+
+  TVeggiePizza = class(TSimplePizza )
+  public
+  procedure Message; override;
+  end;
 
 implementation
  procedure TSimplePizza .Bake;
@@ -35,4 +47,22 @@ procedure TSimplePizza .Prepare;
 begin
   WriteLn('Prepare the Pizza');
 end;
+
+procedure  TCheesePizza.Message;
+begin
+ WriteLn('Order for Pizza Cheesse');
+end;
+
+procedure  TPepperoniPizza.Message;
+begin
+ WriteLn('Order for Pizza Pepperoni');
+end;
+
+{ TVeggiePizza }
+
+procedure TVeggiePizza.Message;
+begin
+ WriteLn('Order for Pizza Veggie');
+end;
+
 end.
