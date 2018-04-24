@@ -11,7 +11,9 @@ type
     procedure Box;
   end;
 
-
+TCheesePizza = class(TSimplePizza );
+TPepperoniPizza = class(TSimplePizza );
+TVeggiePizza = class(TSimplePizza );
 
 implementation
  procedure TSimplePizza .Bake;
