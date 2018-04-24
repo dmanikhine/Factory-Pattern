@@ -14,12 +14,11 @@ uses
  begin
    PizzaStore:=TPizzaStore.Create;
    try
-   PizzaStore.OrderPizza("cheese");
-
-   end;
-   finally
+   PizzaStore.OrderPizza('cheese');
+    finally
     PizzaStore.Free;
  end;
+
 begin
   try
     { TODO -oUser -cConsole Main : Code hier einfügen }
