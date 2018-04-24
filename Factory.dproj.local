@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.982,C:\Users\Administrator\Documents\RAD Studio\Projekte\Project1.dproj=C:\Users\Administrator\Documents\RAD Studio\Projekte\Factory.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.357,C:\Users\Administrator\Documents\RAD Studio\Projekte\Factory.dproj=D:\dmaFactory\Factory.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.083,C:\Users\Administrator\Documents\RAD Studio\Projekte\uTSimplePizza.pas=D:\dmaFactory\uTSimplePizza.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.353,C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas=C:\Users\Administrator\Documents\RAD Studio\Projekte\uTSimplePizza.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.924,=C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.274,=C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,=C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,C:\Users\Administrator\Documents\RAD Studio\Projekte\Factory.dproj=C:\Users\Administrator\Documents\RAD Studio\Projekte\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.539,=C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.083,D:\dmaFactory\uTSimplePizza.pas=C:\Users\Administrator\Documents\RAD Studio\Projekte\uTSimplePizza.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.357,D:\dmaFactory\Factory.dproj=C:\Users\Administrator\Documents\RAD Studio\Projekte\Factory.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.353,C:\Users\Administrator\Documents\RAD Studio\Projekte\uTSimplePizza.pas=C:\Users\Administrator\Documents\RAD Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>2018.04.24 14:53:07.399,=F:\Unit1.pas</Transaction>
+    <Transaction>2018.04.24 14:54:56.970,F:\uTPizzaStore.pas=F:\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
