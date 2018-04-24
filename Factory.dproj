@@ -92,6 +92,7 @@
         </DelphiCompile>
         <DCCReference Include="uTSimplePizza.pas"/>
         <DCCReference Include="uTPizzaStore.pas"/>
+        <DCCReference Include="uTSimplePizzaFactory.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

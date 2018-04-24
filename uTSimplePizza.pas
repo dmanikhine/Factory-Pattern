@@ -4,7 +4,7 @@ interface
 
 type
   TSimplePizza = class(TObject)
-  public
+    public
     procedure Prepare;
     procedure Bake;
     procedure Cut;

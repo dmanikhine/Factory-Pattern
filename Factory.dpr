@@ -7,12 +7,13 @@ program Factory;
 uses
   System.SysUtils,
   uTSimplePizza in 'uTSimplePizza.pas',
-  uTPizzaStore in 'uTPizzaStore.pas';
+  uTPizzaStore in 'uTPizzaStore.pas',
+  uTSimplePizzaFactory in 'uTSimplePizzaFactory.pas';
 
 procedure DoPizzaStore;
-var PizzaStore:  TPizzaStore;
+var PizzaStore:   TPizzaStore;
 begin
-  PizzaStore:=TPizzaStore.Create;
+  PizzaStore:=TPizzaStore.Create(TSimplePizzaFactory.Create);
   try
   PizzaStore.OrderPizza('cheese');
   finally
